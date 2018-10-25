@@ -1,0 +1,90 @@
+.polaris{
+  position: relative;
+  width:100vw;
+  height:100vh;
+  padding: 0;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.b-m {
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-bottom: 1rem;
+}
+
+.silver{
+  box-shadow: 0 0 15px black;
+}
+
+
+.icon{
+  height:75px;
+  width:75px;
+  display:block;
+  margin:auto;
+}
+
+.fill{
+  display:inline-block;
+  height:auto;
+  width:auto;
+}
+
+.braplife{
+  margin:0;
+  fill:auto;
+  width:auto;
+  padding:0;
+  position: relative;
+}
+
+.half{
+  width:100%;
+}
+
+.black{
+  background-color: black;
+}
+
+.img-fill {
+  background-image: url(polaris.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.shadow{
+  text-shadow: 0 0 10px;
+}
+
+.footer{
+  display: flex;
+  height: 4rem;
+  align-items: center;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    justify-content: center;
+}
+
+.way-out {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-image {
+  min-height: 65vh;
+}
+
+.style{
+  height: 50vh;
+  align-items: center;
+}
